@@ -1,0 +1,42 @@
+.techniques{
+  padding-top: 100px;
+}
+
+.cards {
+  margin: 0 auto;
+  max-width: 920px; /* Максимальная ширина контейнера */
+  width: 100%; /* Адаптивная ширина */
+  display: flex;
+  flex-wrap: wrap; /* Разрешить перенос элементов */
+  column-gap: 100px;
+}
+
+.cards__item{
+  padding-top: 60px;
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.item__image{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.item__title{
+  margin: 43px auto 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.item__description{
+  font-size: 18px;
+  line-height: 23px;
+  margin: 16px auto 0;
+  text-align: center;
+}

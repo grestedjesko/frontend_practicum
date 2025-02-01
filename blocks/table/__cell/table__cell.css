@@ -1,0 +1,19 @@
+
+.cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.heading {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.text {
+  margin: 20px auto 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 400;
+}
