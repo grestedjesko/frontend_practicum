@@ -1,0 +1,19 @@
+
+.link {
+  text-decoration: none;
+  color: white;
+  opacity: 1; /* Начальная непрозрачность */
+  transition: opacity 0.3s ease-in-out; /* Плавный переход за 0.3 секунды */
+}
+
+.link:hover {
+  opacity: 0.5; /* Прозрачность при наведении */
+}
+
+.link:active {
+  color: white;
+}
+
+.link:visited {
+  color: white;
+}

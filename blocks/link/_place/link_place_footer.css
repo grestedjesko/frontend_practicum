@@ -1,0 +1,12 @@
+.link_place_footer {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+
+  margin-bottom: 17px;
+}
+
+.link_place_footer:hover {
+  text-decoration: underline;
+}
